@@ -37,10 +37,3 @@ def run(protocol):
 
   protocol.home()
   
-'''
-volume = []
-for index, row in inputTable.iterrows():
-  volume.append(row['Volume'])
-
-inputTable.to_string()
-'''
