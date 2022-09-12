@@ -1,0 +1,14 @@
+Update inputFile to appropriate csv
+CSV Setup: 
+  col 1: Volumes
+  col 2: Start Plate Number (1-3)
+  col 3: Start Plate Position (row first, then column ie. A1, D6. NOT 6D)
+  col 4: Finish Plate Position (row first, then column)
+Any Volume less than or equal to 0 will be skipped
+
+opentron layout: Position
+  Finish Plate:   2
+  Start Plate 1:  4
+  Start Plate 2:  5
+  Start Plate 3:  6
+  20uL Tips:      7, 8, and 9
